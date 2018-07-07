@@ -387,127 +387,127 @@ def TotalCost():
 def chk_values():
     if var1.get() == 1:
         txtFries.configure(state=NORMAL)
-        varFries.set("")
+        #varFries.set("")
     elif var1.get() == 0:
         txtFries.configure(state=DISABLED)
         varFries.set("0")
     if var2.get() == 1:
         txtSalad.configure(state=NORMAL)
-        varSalad.set("")
+        #varSalad.set("")
     elif var2.get() == 0:
         txtSalad.configure(state=DISABLED)
         varSalad.set("0")
     if var3.get() == 1:
         txtHamburger.configure(state=NORMAL)
-        varHamburger.set("")
+        #varHamburger.set("")
     elif var3.get() == 0:
         txtHamburger.configure(state=DISABLED)
-        varHamburger.set("0")
+        #varHamburger.set("0")
     if var4.get() == 1:
         txtLittiChokha.configure(state=NORMAL)
-        varLittiChokha.set("")
+        #varLittiChokha.set("")
     elif var4.get() == 0:
         txtLittiChokha.configure(state=DISABLED)
         varLittiChokha.set("0")
     if var5.get() == 1:
         txtChickenSalad.configure(state=NORMAL)
-        varChickenSalad.set("")
+        #varChickenSalad.set("")
     elif var5.get() == 0:
         txtChickenSalad.configure(state=DISABLED)
-        varChickenSalad.set("0")
+        #varChickenSalad.set("0")
     if var6.get() == 1:
         txtCheeseSandwich.configure(state=NORMAL)
-        varCheeseSandwich.set("")
+        #varCheeseSandwich.set("")
     elif var6.get() == 0:
         txtCheeseSandwich.configure(state=DISABLED)
         varCheeseSandwich.set("0")
     if var7.get() == 1:
         txtChickenSandwich.configure(state=NORMAL)
-        varChickenSandwich.set("")
+        #varChickenSandwich.set("")
     elif var7.get() == 0:
         txtChickenSandwich.configure(state=DISABLED)
         varChickenSandwich.set("0")
     if var8.get() == 1:
         txtFishSandwich.configure(state=NORMAL)
-        varFishSandwich.set("")
+        #varFishSandwich.set("")
     elif var8.get() == 0:
         txtFishSandwich.configure(state=DISABLED)
         varFishSandwich.set("0")
     if var9.get() == 1:
         txtChocoBrownie.configure(state=NORMAL)
-        varChocoBrownie.set("")
+        #varChocoBrownie.set("")
     elif var9.get() == 0:
         txtChocoBrownie.configure(state=DISABLED)
         varChocoBrownie.set("0")
     if var10.get() == 1:
         txtGulabJamun.configure(state=NORMAL)
-        varGulabJamun.set("")
+        #varGulabJamun.set("")
     elif var10.get() == 0:
         txtGulabJamun.configure(state=DISABLED)
         varGulabJamun.set("0")
     if var11.get() == 1:
         txtPaan.configure(state=NORMAL)
-        varPaan.set("")
+        #varPaan.set("")
     elif var11.get() == 0:
         txtPaan.configure(state=DISABLED)
         varPaan.set("0")
     if var12.get() == 1:
         txtRasmalai.configure(state=NORMAL)
-        varRasmalai.set("")
+        #varRasmalai.set("")
     elif var12.get() == 0:
         txtRasmalai.configure(state=DISABLED)
         varRasmalai.set("0")
     if var13.get() == 1:
         txtJalebi.configure(state=NORMAL)
-        varJalebi.set("")
+        #varJalebi.set("")
     elif var13.get() == 0:
         txtJalebi.configure(state=DISABLED)
         varJalebi.set("0")
     if var14.get() == 1:
         txtTea.configure(state=NORMAL)
-        varTea.set("")
+        #varTea.set("")
     elif var14.get() == 0:
         txtTea.configure(state=DISABLED)
         varTea.set("0")
     if var15.get() == 1:
         txtCola.configure(state=NORMAL)
-        varCola.set("")
+        #varCola.set("")
     elif var15.get() == 0:
         txtCola.configure(state=DISABLED)
         varCola.set("0")
     if var16.get() == 1:
         txtCoffee.configure(state=NORMAL)
-        varCoffee.set("")
+        #varCoffee.set("")
     elif var16.get() == 0:
         txtCoffee.configure(state=DISABLED)
         varCoffee.set("0")
     if var17.get() == 1:
         txtOrange.configure(state=NORMAL)
-        varOrange.set("")
+        #varOrange.set("")
     elif var17.get() == 0:
         txtOrange.configure(state=DISABLED)
         varOrange.set("0")
     if var18.get() == 1:
         txtWater.configure(state=NORMAL)
-        varWater.set("")
+        #varWater.set("")
     elif var18.get() == 0:
         txtWater.configure(state=DISABLED)
         varWater.set("0")
     if var19.get() == 1:
         txtChocolateShake.configure(state=NORMAL)
-        varChocolateShake.set("")
+        #varChocolateShake.set("")
     elif var19.get() == 0:
         txtChocolateShake.configure(state=DISABLED)
         varChocolateShake.set("0")
     if var20.get() == 1:
         txtVanillaShake.configure(state=NORMAL)
-        varVanillaShake.set("")
+        #varVanillaShake.set("")
     elif var20.get() == 0:
         txtVanillaShake.configure(state=DISABLED)
         varVanillaShake.set("0")
     if var21.get() == 1:
         txtOreoKrusher.configure(state=NORMAL)
-        varOreoKrusher.set("")
+        #varOreoKrusher.set("")
     elif var21.get() == 0:
         txtOreoKrusher.configure(state=DISABLED)
         varOreoKrusher.set("0")

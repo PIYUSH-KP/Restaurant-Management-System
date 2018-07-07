@@ -210,6 +210,28 @@ def Reset():
     varVanillaShake.set(0)
     varOreoKrusher.set(0)
 
+    var1.set(0)
+    var2.set(0)
+    var3.set(0)
+    var4.set(0)
+    var5.set(0)
+    var6.set(0)
+    var7.set(0)
+    var8.set(0)
+    var9.set(0)
+    var10.set(0)
+    var11.set(0)
+    var12.set(0)
+    var13.set(0)
+    var14.set(0)
+    var15.set(0)
+    var16.set(0)
+    var17.set(0)
+    var18.set(0)
+    var19.set(0)
+    var20.set(0)
+    var21.set(0)
+
     txtFries.configure(state=DISABLED)
     txtSalad.configure(state=DISABLED)
     txtHamburger.configure(state=DISABLED)
@@ -368,18 +390,24 @@ def TotalCost():
 
     iTotal = (m1*59 + m2*49 + m3*99 + m4*39 + m5*99 + m6*79 + m7*99 + m8*119 + m9*139 + m10*59 + m11*39 + m12*59 + m13*39 + m14*49 + m15*20 + m16*79 +
                  m17*50 + m18*25 + m19*50 + m20*50 + m21*105)
-    varTotal.set(iTotal)
+
+    striTotal = 'Rs',str(iTotal)
+    varTotal.set(striTotal)
 
     cgst = (9/100)*iTotal
-    varCGST.set(cgst)
+    strcgst = 'Rs',str(cgst)
+    varCGST.set(strcgst)
 
     sgst = (9/100)*iTotal
-    varSGST.set(sgst)
+    strsgst = 'Rs',str(sgst)
+    varSGST.set(strsgst)
 
     service_charge = 0.1*iTotal
-    varServiceCharge.set(service_charge)
+    strService_charge = "Rs",str(service_charge)
+    varServiceCharge.set(strService_charge)
 
-    varPay.set(iTotal+cgst+sgst+service_charge)
+    strPay = 'Rs', str('%.2f'%(iTotal+cgst+sgst+service_charge))
+    varPay.set(strPay)
 
 #================================================================================
 #                       CHECKBOX FUNCTION
@@ -405,13 +433,13 @@ def chk_values():
         #varHamburger.set("0")
     if var4.get() == 1:
         txtLittiChokha.configure(state=NORMAL)
-        #varLittiChokha.set("")
+        varLittiChokha.set("")
     elif var4.get() == 0:
         txtLittiChokha.configure(state=DISABLED)
         varLittiChokha.set("0")
     if var5.get() == 1:
         txtChickenSalad.configure(state=NORMAL)
-        #varChickenSalad.set("")
+        varChickenSalad.set("")
     elif var5.get() == 0:
         txtChickenSalad.configure(state=DISABLED)
         #varChickenSalad.set("0")
@@ -717,6 +745,5 @@ lblpay = Label(f3bottom, font=("arial", 18, 'bold'), text = "Total Payable Amoun
 lblpay.grid(row=0, column=0)
 txtpay = Entry(f3bottom, font=("arial", 18, 'bold'), bd=8, textvariable = varPay, width=10, justify="right",state=DISABLED)
 txtpay.grid(row=0, column=1)
-
 
 root.mainloop()

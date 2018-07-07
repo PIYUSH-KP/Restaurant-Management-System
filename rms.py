@@ -433,10 +433,10 @@ def chk_values():
         #varHamburger.set("0")
     if var4.get() == 1:
         txtLittiChokha.configure(state=NORMAL)
-        varLittiChokha.set("")
+        #varLittiChokha.set("")
     elif var4.get() == 0:
         txtLittiChokha.configure(state=DISABLED)
-        varLittiChokha.set("0")
+        #varLittiChokha.set("0")
     if var5.get() == 1:
         txtChickenSalad.configure(state=NORMAL)
         varChickenSalad.set("")

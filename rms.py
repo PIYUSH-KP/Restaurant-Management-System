@@ -412,133 +412,179 @@ def TotalCost():
 #================================================================================
 #                       CHECKBOX FUNCTION
 # ================================================================================
-def chk_values():
+def a():
     if var1.get() == 1:
         txtFries.configure(state=NORMAL)
-        #varFries.set("")
+        varFries.set("")
     elif var1.get() == 0:
         txtFries.configure(state=DISABLED)
         varFries.set("0")
+
+def b():
     if var2.get() == 1:
         txtSalad.configure(state=NORMAL)
-        #varSalad.set("")
+        varSalad.set("")
     elif var2.get() == 0:
         txtSalad.configure(state=DISABLED)
         varSalad.set("0")
+
+def c():
     if var3.get() == 1:
         txtHamburger.configure(state=NORMAL)
-        #varHamburger.set("")
+        varHamburger.set("")
     elif var3.get() == 0:
         txtHamburger.configure(state=DISABLED)
-        #varHamburger.set("0")
+        varHamburger.set("0")
+
+def d():
     if var4.get() == 1:
         txtLittiChokha.configure(state=NORMAL)
-        #varLittiChokha.set("")
+        varLittiChokha.set("")
     elif var4.get() == 0:
         txtLittiChokha.configure(state=DISABLED)
-        #varLittiChokha.set("0")
+        varLittiChokha.set("0")
+
+def e():
     if var5.get() == 1:
         txtChickenSalad.configure(state=NORMAL)
         varChickenSalad.set("")
     elif var5.get() == 0:
         txtChickenSalad.configure(state=DISABLED)
-        #varChickenSalad.set("0")
+        varChickenSalad.set("0")
+
+
+def f():
     if var6.get() == 1:
         txtCheeseSandwich.configure(state=NORMAL)
-        #varCheeseSandwich.set("")
+        varCheeseSandwich.set("")
     elif var6.get() == 0:
         txtCheeseSandwich.configure(state=DISABLED)
         varCheeseSandwich.set("0")
+
+def g():
     if var7.get() == 1:
         txtChickenSandwich.configure(state=NORMAL)
-        #varChickenSandwich.set("")
+        varChickenSandwich.set("")
     elif var7.get() == 0:
         txtChickenSandwich.configure(state=DISABLED)
         varChickenSandwich.set("0")
+
+def h():
     if var8.get() == 1:
         txtFishSandwich.configure(state=NORMAL)
-        #varFishSandwich.set("")
+        varFishSandwich.set("")
     elif var8.get() == 0:
         txtFishSandwich.configure(state=DISABLED)
         varFishSandwich.set("0")
+
+def i():
     if var9.get() == 1:
         txtChocoBrownie.configure(state=NORMAL)
-        #varChocoBrownie.set("")
+        varChocoBrownie.set("")
     elif var9.get() == 0:
         txtChocoBrownie.configure(state=DISABLED)
         varChocoBrownie.set("0")
+
+def j():
     if var10.get() == 1:
         txtGulabJamun.configure(state=NORMAL)
-        #varGulabJamun.set("")
+        varGulabJamun.set("")
     elif var10.get() == 0:
         txtGulabJamun.configure(state=DISABLED)
         varGulabJamun.set("0")
+
+def k():
     if var11.get() == 1:
         txtPaan.configure(state=NORMAL)
-        #varPaan.set("")
+        varPaan.set("")
     elif var11.get() == 0:
         txtPaan.configure(state=DISABLED)
         varPaan.set("0")
+        
+def l():
     if var12.get() == 1:
         txtRasmalai.configure(state=NORMAL)
-        #varRasmalai.set("")
+        varRasmalai.set("")
     elif var12.get() == 0:
         txtRasmalai.configure(state=DISABLED)
         varRasmalai.set("0")
+        
+def m():
     if var13.get() == 1:
         txtJalebi.configure(state=NORMAL)
-        #varJalebi.set("")
+        varJalebi.set("")
     elif var13.get() == 0:
         txtJalebi.configure(state=DISABLED)
         varJalebi.set("0")
+        
+def n():
     if var14.get() == 1:
         txtTea.configure(state=NORMAL)
-        #varTea.set("")
+        varTea.set("")
     elif var14.get() == 0:
         txtTea.configure(state=DISABLED)
         varTea.set("0")
+        
+def o():
     if var15.get() == 1:
         txtCola.configure(state=NORMAL)
-        #varCola.set("")
+        varCola.set("")
     elif var15.get() == 0:
         txtCola.configure(state=DISABLED)
         varCola.set("0")
+        
+def p():
     if var16.get() == 1:
         txtCoffee.configure(state=NORMAL)
-        #varCoffee.set("")
+        varCoffee.set("")
     elif var16.get() == 0:
         txtCoffee.configure(state=DISABLED)
         varCoffee.set("0")
+        
+def q():
     if var17.get() == 1:
         txtOrange.configure(state=NORMAL)
-        #varOrange.set("")
+        varOrange.set("")
     elif var17.get() == 0:
         txtOrange.configure(state=DISABLED)
         varOrange.set("0")
+        
+def r():
     if var18.get() == 1:
         txtWater.configure(state=NORMAL)
-        #varWater.set("")
+        varWater.set("")
     elif var18.get() == 0:
         txtWater.configure(state=DISABLED)
         varWater.set("0")
+        
+def s():
     if var19.get() == 1:
         txtChocolateShake.configure(state=NORMAL)
-        #varChocolateShake.set("")
+        varChocolateShake.set("")
     elif var19.get() == 0:
         txtChocolateShake.configure(state=DISABLED)
         varChocolateShake.set("0")
+        
+def t():
     if var20.get() == 1:
         txtVanillaShake.configure(state=NORMAL)
-        #varVanillaShake.set("")
+        varVanillaShake.set("")
     elif var20.get() == 0:
         txtVanillaShake.configure(state=DISABLED)
         varVanillaShake.set("0")
+        
+def u():
     if var21.get() == 1:
         txtOreoKrusher.configure(state=NORMAL)
-        #varOreoKrusher.set("")
+        varOreoKrusher.set("")
     elif var21.get() == 0:
         txtOreoKrusher.configure(state=DISABLED)
         varOreoKrusher.set("0")
+
+
+
+
+
 
 #================================================================================
 #                       FRAME 1
@@ -549,27 +595,27 @@ def chk_values():
 lblMeal = Label(f1top,font=("arial",25,'bold'), text="Fast Meal")
 lblMeal.grid(row=0, column=0)
 
-Fries = Checkbutton(f1top, text="Fries", variable=var1, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Fries = Checkbutton(f1top, text="Fries", variable=var1, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=a)
 Fries.grid(row=1, column=0, sticky = W)
 txtFries = Entry(f1top, font=("arial", 18, 'bold'), bd=8, textvariable = varFries, width=4, justify="right",state=DISABLED)
 txtFries.grid(row=1, column=1)
 
-Salad = Checkbutton(f1top, text="Salad", variable=var2, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Salad = Checkbutton(f1top, text="Salad", variable=var2, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=b)
 Salad.grid(row=2, column=0, sticky = W)
 txtSalad = Entry(f1top, font=("arial", 18, 'bold'), bd=8, textvariable = varSalad, width=4, justify="right",state=DISABLED)
 txtSalad.grid(row=2, column=1)
 
-Hamburger = Checkbutton(f1top, text="Hamburger", variable=var3, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Hamburger = Checkbutton(f1top, text="Hamburger", variable=var3, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=c)
 Hamburger.grid(row=3, column=0, sticky = W)
 txtHamburger = Entry(f1top, font=("arial", 18, 'bold'), bd=8, textvariable = varHamburger, width=4, justify="right",state=DISABLED)
 txtHamburger.grid(row=3, column=1)
 
-LittiChokha = Checkbutton(f1top, text="Litti Chokha", variable=var4, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+LittiChokha = Checkbutton(f1top, text="Litti Chokha", variable=var4, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=d)
 LittiChokha.grid(row=4, column=0, sticky = W)
 txtLittiChokha = Entry(f1top, font=("arial", 18, 'bold'), bd=8, textvariable = varLittiChokha, width=4, justify="right",state=DISABLED)
 txtLittiChokha.grid(row=4, column=1)
 
-ChickenSalad = Checkbutton(f1top, text="Chicken Salad", variable=var5, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+ChickenSalad = Checkbutton(f1top, text="Chicken Salad", variable=var5, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=e)
 ChickenSalad.grid(row=5, column=0, sticky = W)
 txtChickenSalad = Entry(f1top, font=("arial", 18, 'bold'), bd=8, textvariable = varChickenSalad, width=4, justify="right",state=DISABLED)
 txtChickenSalad.grid(row=5, column=1)
@@ -579,17 +625,17 @@ lblSpace.grid(row=6, column=0)
 lblSandwich = Label(f1top,font=("arial",25,'bold'), text="Sandwiches")
 lblSandwich.grid(row=7, column=0)
 
-CheeseSandwich = Checkbutton(f1top, text="Cheese Sandwich", variable=var6, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+CheeseSandwich = Checkbutton(f1top, text="Cheese Sandwich", variable=var6, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=f)
 CheeseSandwich.grid(row=8, column=0, sticky = W)
 txtCheeseSandwich = Entry(f1top, font=("arial", 18, 'bold'), bd=8, textvariable = varCheeseSandwich, width=4, justify="right",state=DISABLED)
 txtCheeseSandwich.grid(row=8, column=1)
 
-ChickenSandwich = Checkbutton(f1top, text="Chicken Sandwich", variable=var7, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+ChickenSandwich = Checkbutton(f1top, text="Chicken Sandwich", variable=var7, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=g)
 ChickenSandwich.grid(row=9, column=0, sticky = W)
 txtChickenSandwich = Entry(f1top, font=("arial", 18, 'bold'), bd=8, textvariable = varChickenSandwich, width=4, justify="right",state=DISABLED)
 txtChickenSandwich.grid(row=9, column=1)
 
-FishSandwich = Checkbutton(f1top, text="Fish Sandwhich", variable=var8, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+FishSandwich = Checkbutton(f1top, text="Fish Sandwhich", variable=var8, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=h)
 FishSandwich.grid(row=10, column=0, sticky = W)
 txtFishSandwich = Entry(f1top, font=("arial", 18, 'bold'), bd=8, textvariable = varFishSandwich, width=4, justify="right",state=DISABLED)
 txtFishSandwich.grid(row=10, column=1)
@@ -607,27 +653,27 @@ btnReceipt.grid(row=0,column=0)
 lblMeal = Label(f2Top,font=("arial",25,'bold'), text="Desserts")
 lblMeal.grid(row=0, column=0)
 
-ChocoBrownie = Checkbutton(f2Top, text="Chocolate Brownie", variable=var9, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+ChocoBrownie = Checkbutton(f2Top, text="Chocolate Brownie", variable=var9, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=i)
 ChocoBrownie.grid(row=1, column=0, sticky = W)
 txtChocoBrownie = Entry(f2Top, font=("arial", 18, 'bold'), bd=8, textvariable = varChocoBrownie, width=4, justify="right",state=DISABLED)
 txtChocoBrownie.grid(row=1, column=1)
 
-GulabJamun = Checkbutton(f2Top, text="Hot Gulab Jamun with Icecream", variable=var10, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+GulabJamun = Checkbutton(f2Top, text="Hot Gulab Jamun with Icecream", variable=var10, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=j)
 GulabJamun.grid(row=2, column=0, sticky = W)
 txtGulabJamun = Entry(f2Top, font=("arial", 18, 'bold'), bd=8, textvariable = varGulabJamun, width=4, justify="right",state=DISABLED)
 txtGulabJamun.grid(row=2, column=1)
 
-Paan = Checkbutton(f2Top, text="Paan", variable=var11, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Paan = Checkbutton(f2Top, text="Paan", variable=var11, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=k)
 Paan.grid(row=3, column=0, sticky = W)
 txtPaan = Entry(f2Top, font=("arial", 18, 'bold'), bd=8, textvariable = varPaan, width=4, justify="right",state=DISABLED)
 txtPaan.grid(row=3, column=1)
 
-Rasmalai = Checkbutton(f2Top, text="Rasmalai", variable=var12, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Rasmalai = Checkbutton(f2Top, text="Rasmalai", variable=var12, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=l)
 Rasmalai.grid(row=4, column=0, sticky = W)
 txtRasmalai = Entry(f2Top, font=("arial", 18, 'bold'), bd=8, textvariable = varRasmalai, width=4, justify="right",state=DISABLED)
 txtRasmalai.grid(row=4, column=1)
 
-Jalebi = Checkbutton(f2Top, text="Jalebi", variable=var13, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Jalebi = Checkbutton(f2Top, text="Jalebi", variable=var13, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=m)
 Jalebi.grid(row=5, column=0, sticky = W)
 txtJalebi = Entry(f2Top, font=("arial", 18, 'bold'), bd=8, textvariable = varJalebi, width=4, justify="right",state=DISABLED)
 txtJalebi.grid(row=5, column=1)
@@ -692,27 +738,27 @@ btnExit.grid(row=5,column=0)
 lblDrinks = Label(f3top,font=("arial",25,'bold'), text="Drinks")
 lblDrinks.grid(row=0, column=0)
 
-Tea = Checkbutton(f3top, text="Tea", variable=var14, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Tea = Checkbutton(f3top, text="Tea", variable=var14, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=n)
 Tea.grid(row=1, column=0, sticky = W)
 txtTea = Entry(f3top, font=("arial", 18, 'bold'), bd=8, textvariable = varTea, width=4, justify="right",state=DISABLED)
 txtTea.grid(row=1, column=1)
 
-Cola = Checkbutton(f3top, text="Cola", variable=var15, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Cola = Checkbutton(f3top, text="Cola", variable=var15, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=o)
 Cola.grid(row=2, column=0, sticky = W)
 txtCola = Entry(f3top, font=("arial", 18, 'bold'), bd=8, textvariable = varCola, width=4, justify="right",state=DISABLED)
 txtCola.grid(row=2, column=1)
 
-Coffee = Checkbutton(f3top, text="Coffee", variable=var16, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Coffee = Checkbutton(f3top, text="Coffee", variable=var16, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=p)
 Coffee.grid(row=3, column=0, sticky = W)
 txtCoffee = Entry(f3top, font=("arial", 18, 'bold'), bd=8, textvariable = varCoffee, width=4, justify="right",state=DISABLED)
 txtCoffee.grid(row=3, column=1)
 
-Orange = Checkbutton(f3top, text="Orange Juice", variable=var17, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Orange = Checkbutton(f3top, text="Orange Juice", variable=var17, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=q)
 Orange.grid(row=4, column=0, sticky = W)
 txtOrange = Entry(f3top, font=("arial", 18, 'bold'), bd=8, textvariable = varOrange, width=4, justify="right",state=DISABLED)
 txtOrange.grid(row=4, column=1)
 
-Water = Checkbutton(f3top, text="Mineral Water", variable=var18, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+Water = Checkbutton(f3top, text="Mineral Water", variable=var18, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=r)
 Water.grid(row=5, column=0, sticky = W)
 txtWater = Entry(f3top, font=("arial", 18, 'bold'), bd=8, textvariable = varWater, width=4, justify="right",state=DISABLED)
 txtWater.grid(row=5, column=1)
@@ -723,17 +769,17 @@ lblSpace.grid(row=6, column=0)
 lblShakes = Label(f3top,font=("arial",25,'bold'), text="Shakes & Krushers")
 lblShakes.grid(row=7, column=0)
 
-ChocolateShake = Checkbutton(f3top, text="Chocolate Shake", variable=var19, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+ChocolateShake = Checkbutton(f3top, text="Chocolate Shake", variable=var19, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=s)
 ChocolateShake.grid(row=8, column=0, sticky = W)
 txtChocolateShake = Entry(f3top, font=("arial", 18, 'bold'), bd=8, textvariable = varChocolateShake, width=4, justify="right",state=DISABLED)
 txtChocolateShake.grid(row=8, column=1)
 
-VanillaShake = Checkbutton(f3top, text="Vanilla Shake", variable=var20, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+VanillaShake = Checkbutton(f3top, text="Vanilla Shake", variable=var20, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=t)
 VanillaShake.grid(row=9, column=0, sticky = W)
 txtVanillaShake = Entry(f3top, font=("arial", 18, 'bold'), bd=8, textvariable = varVanillaShake, width=4, justify="right",state=DISABLED)
 txtVanillaShake.grid(row=9, column=1)
 
-OreoKrusher = Checkbutton(f3top, text="Oreo Krusher", variable=var21, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=chk_values)
+OreoKrusher = Checkbutton(f3top, text="Oreo Krusher", variable=var21, onvalue=1, offvalue=0, font=("arial", 18, 'bold'), command=u)
 OreoKrusher.grid(row=10, column=0, sticky = W)
 txtOreoKrusher = Entry(f3top, font=("arial", 18, 'bold'), bd=8, textvariable = varOreoKrusher, width=4, justify="right",state=DISABLED)
 txtOreoKrusher.grid(row=10, column=1)

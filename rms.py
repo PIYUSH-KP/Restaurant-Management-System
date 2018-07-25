@@ -54,6 +54,10 @@ f3bottom.pack(side=BOTTOM)
 # ========================================================================================================
 #                                VARIABLES
 #========================================================================================================
+Receipt_Ref = StringVar()
+DateofOrder = StringVar()
+DateofOrder.set(time.strftime("%d/%m/%y"))
+
 
 var1 = IntVar()
 var2 = IntVar()
@@ -106,7 +110,7 @@ varFries = StringVar()
 varSalad = StringVar()
 varHamburger = StringVar()
 varLittiChokha = StringVar()
-varChickenSalad = IntVar()
+varChickenSalad = StringVar()
 varCheeseSandwich = StringVar()
 varChickenSandwich = StringVar()
 varFishSandwich = StringVar()
@@ -259,6 +263,57 @@ def Reset():
     txtOreoKrusher.configure(state=DISABLED)
     txtVanillaShake.configure(state=DISABLED)
     txtOreoKrusher.configure(state=DISABLED)
+
+
+
+
+# ===============================================================
+#                       RECEIPT FUMCTION
+# ================================================================
+
+def Receipt():
+    roor = Tk()
+    roor.geometry("600x700+0+0")
+
+    f1 = Frame(roor, width = 1600, height = 700, bd = 12, relief = "raise")
+    f1.pack()
+    lblReceipt = Label(f1, font=('arial', 12, 'bold'), text="Receipt", bd=2, anchor='w')
+    lblReceipt.grid(row=0, column=0, sticky=W)
+    txtReceipt = Text(f1, width=64, height=35, bg="white", bd=8, font=('arial', 11, 'bold'))
+    txtReceipt.grid(row=1, column=0)
+    txtReceipt.delete("1.0", END)
+    x = random.randint(1000, 500890)
+    randomRef = str(x)
+    Receipt_Ref.set("BILL" + randomRef)
+
+    txtReceipt.insert(END, 'Receipt Ref:\t\t\t'+ Receipt_Ref.get() + '\t\t\t' + DateofOrder.get()+"\n")
+    txtReceipt.insert(END, 'Items\t\t\t\t' + "No. of Items \n\n")
+    txtReceipt.insert(END, 'Fries:\t\t\t\t\t' + varFries.get() + "\n")
+    txtReceipt.insert(END, 'Salad: \t\t\t\t\t' + varSalad.get() + "\n")
+    txtReceipt.insert(END, 'HamBurger: \t\t\t\t\t' + varHamburger.get() + "\n")
+    txtReceipt.insert(END, 'Litti-Chokha: \t\t\t\t\t' + varLittiChokha.get() + "\n")
+    txtReceipt.insert(END, 'Chicken Salad: \t\t\t\t\t' + varChickenSalad.get() + "\n")
+    txtReceipt.insert(END, 'Cheese Sandwhich: \t\t\t\t\t' + varCheeseSandwich.get() + "\n")
+    txtReceipt.insert(END, 'Chicken Sandwhich: \t\t\t\t\t' + varChickenSandwich.get() + "\n")
+    txtReceipt.insert(END, 'Fish Sandwhich: \t\t\t\t\t' + varFishSandwich.get() + "\n")
+    txtReceipt.insert(END, 'Choco Brownie: \t\t\t\t\t' + varChocoBrownie.get() + "\n")
+    txtReceipt.insert(END, 'Gulab Jamun: \t\t\t\t\t' + varGulabJamun.get() + "\n")
+    txtReceipt.insert(END, 'Paan: \t\t\t\t\t' + varPaan.get() + "\n")
+    txtReceipt.insert(END, 'RasMalai: \t\t\t\t\t' + varRasmalai.get() + "\n")
+    txtReceipt.insert(END, 'Jalebi: \t\t\t\t\t' + varJalebi.get() + "\n")
+    txtReceipt.insert(END, 'Tea: \t\t\t\t\t' + varTea.get() + "\n")
+    txtReceipt.insert(END, 'Coffee: \t\t\t\t\t' + varCoffee.get() + "\n")
+    txtReceipt.insert(END, 'Cola: \t\t\t\t\t' + varCola.get() + "\n")
+    txtReceipt.insert(END, 'Orange Juice: \t\t\t\t\t' + varOrange.get() + "\n")
+    txtReceipt.insert(END, 'Water: \t\t\t\t\t' + varWater.get() + "\n")
+    txtReceipt.insert(END, 'Chocolate Shake: \t\t\t\t\t' + varChocolateShake.get() + "\n")
+    txtReceipt.insert(END, 'Fruit Cocktail: \t\t\t\t\t' + varFruitCocktail.get() + "\n")
+    txtReceipt.insert(END, 'Vanilla Shake: \t\t\t\t\t' + varVanillaShake.get() + "\n")
+    txtReceipt.insert(END, 'Oreo Krusher: \t\t\t\t\t' + varOreoKrusher.get() + "\n")
+    txtReceipt.insert(END, '\nTotal Cost of Food: \t\t' + varTotal.get() + "\nCGST:\t\t" + varCGST.get() + "\nSGST:\t\t" +
+                      varSGST.get() + "\nService Charge:\t\t" + varServiceCharge.get() + "\nTotal Payble amount:\t\t" + varPay.get())
+    roor.mainloop()
+
 
 #================================================PRICE LIST=======================================
 def price_list():
@@ -642,7 +697,7 @@ txtFishSandwich.grid(row=10, column=1)
 
 #lblSpace = Label(f1top,text="\n\n\n\n\n\n\n")
 #lblSpace.grid(row=11, column=0)
-btnReceipt=Button(f1bottom,padx=20,pady=2,bd=14,fg="black",font=('arial',16,'bold'),width=16,text="GENERATE RECEIPT")
+btnReceipt=Button(f1bottom,padx=20,pady=2,bd=14,fg="black",font=('arial',16,'bold'),width=16,text="GENERATE RECEIPT", command = Receipt)
 btnReceipt.grid(row=0,column=0)
 #================================================================================
 #                       FRAME 2 Top
